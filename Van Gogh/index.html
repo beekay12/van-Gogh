@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vincent van Gogh | Painted Experience</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Cormorant Garamond', serif;
+  color:#f5ecd7;
+  background:
+    radial-gradient(circle at top left, rgba(255,183,3,.15), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(33,78,140,.25), transparent 35%),
+    #0f2345;
+  overflow-x:hidden;
+}
+
+/* painted canvas texture */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:url('https://www.transparenttextures.com/patterns/canvas-fabric.png');
+  opacity:.25;
+  pointer-events:none;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:22px;
+  backdrop-filter:blur(10px);
+  background:rgba(15,35,69,.65);
+  z-index:1000;
+}
+
+nav ul{
+  display:flex;
+  justify-content:center;
+  gap:50px;
+  list-style:none;
+}
+
+nav a{
+  color:#ffd166;
+  text-decoration:none;
+  font-size:1.1rem;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.45)),
+    url('vangogh.jpg') center/cover;
+}
+
+.hero h1{
+  font-size:6rem;
+  color:#ffd166;
+  text-shadow:4px 4px 20px rgba(0,0,0,.5);
+  font-family:'Caveat', cursive;
+  transform:rotate(-2deg);
+}
+
+section{
+  padding:120px 10%;
+}
+
+h2{
+  font-size:3rem;
+  color:#ffd166;
+  margin-bottom:30px;
+  font-family:'Caveat', cursive;
+}
+
+.about{
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  font-size:1.5rem;
+  line-height:1.8;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:40px;
+}
+
+.card{
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:18px;
+  overflow:hidden;
+  transform:rotate(-1deg);
+  transition:.4s;
+  box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+
+.card:nth-child(even){
+  transform:rotate(1deg);
+}
+
+.card:hover{
+  transform:scale(1.03) rotate(0deg);
+}
+
+.card img{
+  width:100%;
+  height:420px;
+  object-fit:cover;
+  filter:saturate(115%);
+}
+
+.card-content{
+  padding:25px;
+}
+
+.card-content h3{
+  color:#ffd166;
+  font-size:2rem;
+}
+
+.card-content p{
+  font-size:1.2rem;
+}
+
+.quote{
+  text-align:center;
+  font-size:2.2rem;
+  font-style:italic;
+  color:#fff3c4;
+}
+
+@media(max-width:768px){
+  .hero h1{font-size:3.5rem;}
+  h2{font-size:2.3rem;}
+}
+
+    .footer-credit {
+  color: var(--text-gray);
+  text-decoration: none;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+}
+
+    footer {
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-gray);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      background-color: rgba(15,35,69,.75);
+    }
+
+.footer-credit:hover {
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+    ::-webkit-scrollbar {
+    width: 3px;
+    }
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 9px;
+    }
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(58, 58, 58); 
+    border-radius: 10px;
+    }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0); 
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#quote">Quote</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Vincent van Gogh</h1>
+</section>
+
+<section class="about" id="about">
+  <h2>The Painter</h2>
+  <p>
+    Step into Van Gogh's world — thick brush strokes, emotional colour, and restless imagination. This design feels less like a website and more like walking through wet paint on canvas.
+  </p>
+</section>
+
+<section id="works">
+  <h2 style="text-align:center;">Masterpieces</h2>
+  <div class="gallery">
+    <div class="card">
+      <img src="starrynight.jpg">
+      <div class="card-content">
+        <h3>The Starry Night</h3>
+        <p>1889 — swirling emotion and cosmic wonder.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="sunflowers.jpg">
+      <div class="card-content">
+        <h3>Sunflowers</h3>
+        <p>1888 — warm, alive, and unmistakably Van Gogh.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="WWC.jpg">
+      <div class="card-content">
+        <h3>Wheatfield with Crows</h3>
+        <p>1890 — dramatic skies and deep feeling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote" id="quote">
+  “I dream my painting, and then I paint my dream.”
+</section>
+
+<footer>
+  <div>©2026 Boikobo Metsing</div>
+  <a href="https://www.github.com/beekay12/" target="_blank" rel="noopener noreferrer" class="footer-credit">
+    DESIGNED BY beekay.12 <i class="fab fa-github"></i>
+  </a>
+</footer>
+
+</body>
+</html>
