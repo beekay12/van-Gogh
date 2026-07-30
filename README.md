@@ -87,7 +87,9 @@ Replace these with screenshots of your finished website.
 
 | Home | Gallery |
 |------|---------|
-| Add screenshot | Add screenshot |
+| Add screenshot | Add screenshot |<img width="1366" height="768" alt="Screenshot 2026-07-30 221834" src="https://github.com/user-attachments/assets/69eb7737-68fe-4979-9ce6-b6f965c24324" />
+<img width="1366" height="768" alt="Screenshot 2026-07-30 221813" src="https://github.com/user-attachments/assets/00845689-86d8-4b56-9196-a4809b00f4ad" />
+
 
 ---
 
