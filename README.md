@@ -83,13 +83,9 @@ Inspired by:
 
 ## 📸 Screenshots
 
-Replace these with screenshots of your finished website.
-
-| Home | Gallery |
-|------|---------|
-| Add screenshot | Add screenshot |<img width="1366" height="768" alt="Screenshot 2026-07-30 221834" src="https://github.com/user-attachments/assets/69eb7737-68fe-4979-9ce6-b6f965c24324" />
-<img width="1366" height="768" alt="Screenshot 2026-07-30 221813" src="https://github.com/user-attachments/assets/00845689-86d8-4b56-9196-a4809b00f4ad" />
-
+<img width="1366" height="768" alt="Screenshot 2026-07-30 221813" src="https://github.com/user-attachments/assets/fb8082cd-1d6d-4fee-82a7-3b1ca43d3f7d" />
+<img width="1366" height="768" alt="Screenshot 2026-07-30 221834" src="https://github.com/user-attachments/assets/697ae5da-9edf-453e-834d-7bd515e3b779" />
+<img width="1366" height="768" alt="Screenshot 2026-07-30 222822" src="https://github.com/user-attachments/assets/66249de9-e99f-41af-89d0-e0f5ed3e249e" />
 
 ---
 
