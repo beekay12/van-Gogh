@@ -1,6 +1,6 @@
 # 🎨 Vincent van Gogh | Painted Experience
 
-A visually immersive one-page website inspired by the life and artwork of **Vincent van Gogh**. The design aims to feel like stepping inside one of his paintings, using rich colours, textured backgrounds, elegant typography, and smooth animations.
+A visually immersive one-page website inspired by the life and artwork of **Vincent van Gogh**. The design aims to feel like stepping inside one of his paintings, using rich colours, textured backgrounds, and canvas-like details.
 
 ## ✨ Features
 
@@ -16,9 +16,9 @@ A visually immersive one-page website inspired by the life and artwork of **Vinc
 
 ---
 
-## 🖼️ Preview
+## 🖼�� Preview
 
-The project includes the following artworks:
+The project includes the following artworks (images are now stored in the repository root):
 
 - **The Starry Night (1889)**
 - **Sunflowers (1888)**
@@ -26,7 +26,7 @@ The project includes the following artworks:
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (updated)
 
 ```
 project/
@@ -36,6 +36,7 @@ project/
 ├── sunflowers.jpg
 ├── WWC.jpg
 ├── vangogh.jpg
+├── vangogh.ico
 └── README.md
 ```
 
@@ -46,7 +47,7 @@ project/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/vangogh-painted-experience.git
+ git clone https://github.com/beekay12/van-Gogh.git
 ```
 
 2. Open the project folder.
@@ -83,9 +84,7 @@ Inspired by:
 
 ## 📸 Screenshots
 
-<img width="1366" height="768" alt="Screenshot 2026-07-30 221813" src="https://github.com/user-attachments/assets/fb8082cd-1d6d-4fee-82a7-3b1ca43d3f7d" />
-<img width="1366" height="768" alt="Screenshot 2026-07-30 221834" src="https://github.com/user-attachments/assets/697ae5da-9edf-453e-834d-7bd515e3b779" />
-<img width="1366" height="768" alt="Screenshot 2026-07-30 222822" src="https://github.com/user-attachments/assets/66249de9-e99f-41af-89d0-e0f5ed3e249e" />
+The README previously embedded screenshots hosted via external GitHub user-attachments. The repository now stores the site images in the root; if you'd like screenshots committed into the repo as well, tell me where to put them (e.g., `assets/`).
 
 ---
 
