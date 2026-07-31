@@ -31,6 +31,10 @@ The project includes the following artworks (images are now stored in the reposi
 ```
 project/
 │
+├── audio/
+│   ├── starry-night_audio.mp3
+│   ├── sunflowers_audio.mp3
+│   └── wwc_audio.mp3
 ├── index.html
 ├── starrynight.jpg
 ├── sunflowers.jpg
@@ -82,21 +86,15 @@ Inspired by:
 
 ---
 
-## 📸 Screenshots
-
-The README previously embedded screenshots hosted via external GitHub user-attachments. The repository now stores the site images in the root; if you'd like screenshots committed into the repo as well, tell me where to put them (e.g., `assets/`).
-
----
-
 ## 🔮 Future Improvements
 
-- Add artwork lightbox viewer
-- Include painting history and descriptions
-- Add subtle page animations
-- Dark/Light mode
-- Audio narration
-- Timeline of Van Gogh's life
-- Interactive museum experience
+[pending] Add artwork lightbox viewer
+[pending] Include painting history and descriptions
+[pending] Add subtle page animations
+[pending] Dark/Light mode
+[added] Audio narration
+[pending] Timeline of Van Gogh's life
+[pending] Interactive museum experience
 
 ---
 

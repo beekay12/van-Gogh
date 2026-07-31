@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vincent van Gogh | Painted Experience</title>
-<link rel="icon" type="image/x-icon" href="../van-Gogh/vangogh.ico">
+<link rel="icon" type="image/x-icon" href="vangogh.ico">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Caveat:wght@500&display=swap" rel="stylesheet">
 
 <style>
@@ -68,7 +68,7 @@ nav a{
   text-align:center;
   background:
     linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.45)),
-    url('../van-Gogh/vangogh.jpg') center/cover;
+    url('vangogh.jpg') center/cover;
 }
 
 .hero h1{
@@ -141,6 +141,20 @@ h2{
 
 .card-content p{
   font-size:1.2rem;
+}
+
+.Playbutton {
+  background-color: #ffd166;
+  border: none;
+  color: #0f2345;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .quote{
@@ -224,26 +238,72 @@ h2{
   <h2 style="text-align:center;">Masterpieces</h2>
   <div class="gallery">
     <div class="card">
-      <img src="../van-Gogh/starrynight.jpg">
+
+      <img src="starrynight.jpg">
       <div class="card-content">
+
+        <audio id="starry">
+    <source src="audio/starry-night_audio.mp3">
+</audio>
+
+<button onclick="playStarry()" class="Playbutton">
+    🔊 Listen
+</button>
+
         <h3>The Starry Night</h3>
-        <p>1889 — swirling emotion and cosmic wonder.</p>
+        <ul>
+          <li>Date: June 1889</li>
+          <li>Medium: Oil on canvas</li>
+          <li>Dimensions: 73.7 cm × 92.1 cm</li>
+          <li>Location: Saint-Rémy-de-Provence</li>
+          <li>Core Message: A turbulent yet luminous night sky bridging earthly isolation with infinite cosmic hope.</li>
+        </ul>
       </div>
     </div>
 
     <div class="card">
-      <img src="../van-Gogh/sunflowers.jpg">
+      <img src="sunflowers.jpg">
       <div class="card-content">
+
+                <audio id="sunflowers">
+    <source src="audio/sunflowers_audio.mp3">
+</audio>
+
+<button onclick="playSunflowers()" class="Playbutton">
+    🔊 Listen
+</button>
+
         <h3>Sunflowers</h3>
-        <p>1888 — warm, alive, and unmistakably Van Gogh.</p>
+        <ul>
+          <li>Date: August 1888</li>
+          <li>Medium: Oil on canvas</li>
+          <li>Dimensions: 92.1 × 73 cm</li>
+          <li>Location: Arles</li>
+          <li>Core Message: A vibrant symphony of yellow tones celebrating gratitude, friendship, and the cycle of life.</li>
+        </ul>
       </div>
     </div>
 
     <div class="card">
-      <img src="../van-Gogh/WWC.jpg">
+      <img src="WWC.jpg">
       <div class="card-content">
+
+                <audio id="wwc">
+    <source src="audio/wwc_audio.mp3">
+</audio>
+
+<button onclick="playwwc()" class="Playbutton">
+    🔊 Listen
+</button>
+
         <h3>Wheatfield with Crows</h3>
-        <p>1890 — dramatic skies and deep feeling.</p>
+        <ul>
+          <li>Date: July 1890</li>
+          <li>Medium: Oil on canvas</li>
+          <li>Dimensions: 50.2 cm × 103 cm</li>
+          <li>Location: Auvers-sur-Oise</li>
+          <li>Core Message: Dramatic, contrasting brushstrokes reflecting intense solitude, emotional turmoil, and looming finality.</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -260,5 +320,27 @@ h2{
   </a>
 </footer>
 
+<script>
+
+function playStarry(){
+document
+.getElementById("starry")
+.play();
+}
+
+function playSunflowers(){
+document
+.getElementById("sunflowers")
+.play();
+}
+
+function playwwc(){
+document
+.getElementById("wwc")
+.play();
+}
+
+
+</script>
 </body>
 </html>
